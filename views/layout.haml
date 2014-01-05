@@ -1,0 +1,16 @@
+!!!
+%html
+    %title Meu titulo
+    %link(rel="stylesheet" href="/css/style.css")
+    %link(rel="stylesheet" href="/css/bootstrap.min.css")
+    %link(rel="stylesheet" href="/css/bootstrap-theme.min.css")
+    %script{:type => 'text/javascript', :src => '/js/jquery.js'}
+    %script{:type => 'text/javascript', :src => '/js/scripts.js'}
+    %body
+        #wrapper
+            .header
+                .header-title{:class => "l-center"}
+                    %h1 TESTE R7
+            .content{:class => "l-center"}
+                =yield
+            .footer

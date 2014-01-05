@@ -1,0 +1,15 @@
+!!!
+.post-root
+    %form{:action => "/", :method => "post"}
+        %textarea{:name => "text"}
+        %input{:type => "submit", :value => "Submit!"}
+- @posts.each do |post|
+    .post-cell
+        = "#{post[1]}"
+        %span
+            %a{:href => "/post/#{post[0]}"}
+                = "Reply"
+.btn-group{:role => "toolbar"}
+    - for i in 1..@paginate
+        %a{:href => "/?p=#{i}", :class => "btn btn-default #{(i == @page.to_i) ? 'is-current' : ''}"}
+            = "#{i}"

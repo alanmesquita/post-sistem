@@ -1,0 +1,43 @@
+body {
+    font-family: arial;
+}
+
+h1, body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #aaa;
+}
+
+.l-center {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.post-cell {
+    position: relative;
+    padding: 19px 15px 15px;
+    margin: 0 0px 15px;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 4px 4px 0 0;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+
+.btn-default.is-current {
+    background: #e0e0e0;
+}
+

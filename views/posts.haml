@@ -1,8 +1,12 @@
 !!!
 - @posts.each do |post|
     .post-cell{:style => "margin-left: #{post[2].to_i*50}px"}
-        .post-coment= "#{post[1]}"
-        %form{:action => "/post/add/#{@parentPostId}", :method => "post"}
-            %textarea{:name => "reply", :id => "reply_#{post[0]}"}
-            %input{:type => "hidden", :name => "post_id", :value => "#{post[0]}"}
-            %input{:type => "submit", :value => "Submit!"}
+        .post-coment
+            = "#{post[1]}"
+            %a{:href => "javascript:void(0)", :class => "open-reply"}
+                = "Reply"
+        .post-reply
+            %form{:action => "/post/add/#{@parentPostId}", :method => "post"}
+                %textarea{:name => "reply", :id => "reply_#{post[0]}"}
+                %input{:type => "hidden", :name => "post_id", :value => "#{post[0]}"}
+                %input{:type => "submit", :value => "Submit!"}

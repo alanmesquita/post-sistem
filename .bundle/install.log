@@ -347,3 +347,298 @@ I, [2014-01-05T23:28:31.829091 #1728]  INFO -- : 0:  raindrops (0.12.0) from /Us
 I, [2014-01-05T23:28:31.829886 #1728]  INFO -- : 0:  sinatra (1.4.4) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
 I, [2014-01-05T23:28:37.001902 #1728]  INFO -- : 0:  unicorn (4.7.0) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/unicorn-4.7.0.gemspec
 I, [2014-01-05T23:28:37.002701 #1728]  INFO -- : 0:  bundler (1.5.0) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/bundler-1.5.0.gemspec
+I, [2014-01-06T01:37:02.139887 #11695]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T01:37:02.964867 #11695]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T01:37:06.181197 #11695]  INFO -- : 0:  json (1.8.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-06T01:37:15.173366 #11695]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+E, [2014-01-06T01:37:21.106783 #11695] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lm... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lz... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lsocket... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lnsl... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lmygcc... no
+checking for mysql_query() in -lmysqlclient... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-mysql-config
+	--without-mysql-config
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/lib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mlib
+	--without-mlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-zlib
+	--without-zlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-socketlib
+	--without-socketlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-nsllib
+	--without-nsllib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mygcclib
+	--without-mygcclib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.1.0/gems/mysql-2.9.1 for inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/mysql-2.9.1/gem_make.out
+
+/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-06T01:46:30.300818 #23729]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T01:46:30.302795 #23729]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T01:46:30.307260 #23729]  INFO -- : 0:  json (1.8.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-06T01:46:30.307846 #23729]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+E, [2014-01-06T01:46:30.530357 #23729] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb --with-mysql-config=/usr/local/mysql/bin/mysql_config
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-mysql-config
+extconf.rb:30:in ``': No such file or directory - /usr/local/mysql/bin/mysql_config (Errno::ENOENT)
+	from extconf.rb:30:in `<main>'
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.1.0/gems/mysql-2.9.1 for inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/mysql-2.9.1/gem_make.out
+
+/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-06T01:51:43.154268 #24440]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T01:51:43.154989 #24440]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T01:51:43.155544 #24440]  INFO -- : 0:  json (1.8.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-06T01:51:43.156108 #24440]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+E, [2014-01-06T01:51:43.310396 #24440] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb --with-mysql-config=/usr/local/mysql/bin/mysql_config
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-mysql-config
+extconf.rb:30:in ``': No such file or directory - /usr/local/mysql/bin/mysql_config (Errno::ENOENT)
+	from extconf.rb:30:in `<main>'
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.1.0/gems/mysql-2.9.1 for inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/mysql-2.9.1/gem_make.out
+
+/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-06T01:53:33.708367 #24775]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T01:53:33.709077 #24775]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T01:53:33.709673 #24775]  INFO -- : 0:  json (1.8.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-06T01:53:33.710234 #24775]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+E, [2014-01-06T01:53:33.864807 #24775] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb --with-mysql-config=/usr/local/mysql/bin/mysql_config
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-mysql-config
+extconf.rb:30:in ``': No such file or directory - /usr/local/mysql/bin/mysql_config (Errno::ENOENT)
+	from extconf.rb:30:in `<main>'
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.1.0/gems/mysql-2.9.1 for inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/mysql-2.9.1/gem_make.out
+
+/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-06T01:57:39.032201 #24930]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T01:57:39.033034 #24930]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T01:57:39.033663 #24930]  INFO -- : 0:  json (1.8.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-06T01:57:39.034182 #24930]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+E, [2014-01-06T01:57:39.204058 #24930] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb --with-mysql-config=/usr/local/mysql/bin/mysql_config
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-mysql-config
+extconf.rb:30:in ``': No such file or directory - /usr/local/mysql/bin/mysql_config (Errno::ENOENT)
+	from extconf.rb:30:in `<main>'
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.1.0/gems/mysql-2.9.1 for inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/mysql-2.9.1/gem_make.out
+
+/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:336:in `update'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-06T02:00:33.963699 #25345]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T02:00:33.964404 #25345]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T02:00:33.964941 #25345]  INFO -- : 0:  json (1.8.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-06T02:00:33.965474 #25345]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+E, [2014-01-06T02:00:34.117510 #25345] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb --with-mysql-config=/usr/local/mysql/bin/mysql_config
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-mysql-config
+extconf.rb:30:in ``': No such file or directory - /usr/local/mysql/bin/mysql_config (Errno::ENOENT)
+	from extconf.rb:30:in `<main>'
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.1.0/gems/mysql-2.9.1 for inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/mysql-2.9.1/gem_make.out
+
+/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-06T02:00:59.124828 #25389]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T02:00:59.125559 #25389]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T02:00:59.126135 #25389]  INFO -- : 0:  json (1.8.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-06T02:00:59.126687 #25389]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+I, [2014-01-06T02:01:00.319426 #25389]  INFO -- : 0:  rack (1.5.2) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-06T02:01:00.523010 #25389]  INFO -- : 0:  rack-protection (1.5.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-06T02:01:04.173138 #25389]  INFO -- : 0:  raindrops (0.12.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/raindrops-0.12.0.gemspec
+I, [2014-01-06T02:01:04.542161 #25389]  INFO -- : 0:  sinatra (1.4.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-06T02:01:08.476597 #25389]  INFO -- : 0:  unicorn (4.7.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/unicorn-4.7.0.gemspec
+I, [2014-01-06T02:01:08.478269 #25389]  INFO -- : 0:  bundler (1.5.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
+I, [2014-01-06T02:34:41.703649 #27053]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T02:34:41.704415 #27053]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T02:34:41.705015 #27053]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+E, [2014-01-06T02:34:41.860311 #27053] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb --with-mysql-config=/usr/local/mysql/bin/mysql_config
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ubuntu/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-mysql-config
+extconf.rb:30:in ``': No such file or directory - /usr/local/mysql/bin/mysql_config (Errno::ENOENT)
+	from extconf.rb:30:in `<main>'
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.1.0/gems/mysql-2.9.1 for inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/mysql-2.9.1/gem_make.out
+
+/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ubuntu/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-06T02:44:42.381824 #27259]  INFO -- : 0:  tilt (1.4.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T02:44:42.382543 #27259]  INFO -- : 0:  haml (4.0.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T02:44:42.383098 #27259]  INFO -- : 0:  kgio (2.8.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+I, [2014-01-06T02:44:45.862398 #27259]  INFO -- : 0:  mysql (2.9.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/mysql-2.9.1.gemspec
+I, [2014-01-06T02:44:45.863646 #27259]  INFO -- : 0:  rack (1.5.2) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-06T02:44:45.864415 #27259]  INFO -- : 0:  rack-protection (1.5.1) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-06T02:44:45.865076 #27259]  INFO -- : 0:  raindrops (0.12.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/raindrops-0.12.0.gemspec
+I, [2014-01-06T02:44:45.865741 #27259]  INFO -- : 0:  sinatra (1.4.4) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-06T02:44:45.866500 #27259]  INFO -- : 0:  unicorn (4.7.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0/specifications/unicorn-4.7.0.gemspec
+I, [2014-01-06T02:44:45.867125 #27259]  INFO -- : 0:  bundler (1.5.0) from /home/ubuntu/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec

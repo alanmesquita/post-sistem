@@ -2,7 +2,6 @@ require "bundler/setup"
 require "rubygems" if RUBY_VERSION < '1.9'
 require "sinatra"
 require "haml"
-require "JSON"
 
 require "./lib/Post"
 require "./lib/Banword"
@@ -62,5 +61,3 @@ class App < Sinatra::Base
     end
 
 end
-
-App.run!

@@ -20,8 +20,8 @@ class Banword
 
     def cleanWord (word)
         @@badWords.each do |bad_word|
-            if word == bad_word.to_s # if the word we're looking at is bad
-                word = bad_word.to_s[0]+'****' # replcae the word
+            if word == bad_word.to_s
+                word = bad_word.to_s[0]+'****'
             end
         end
         return word + "  "

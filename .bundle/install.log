@@ -336,3 +336,14 @@ I, [2014-01-02T17:11:04.284587 #10597]  INFO -- : 0:  rack (1.5.2) from /Users/a
 I, [2014-01-02T17:11:04.285103 #10597]  INFO -- : 0:  rack-protection (1.5.1) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.1.gemspec
 I, [2014-01-02T17:11:04.285616 #10597]  INFO -- : 0:  sinatra (1.4.4) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
 I, [2014-01-02T17:11:04.286099 #10597]  INFO -- : 0:  bundler (1.5.0) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/bundler-1.5.0.gemspec
+I, [2014-01-05T23:28:17.579696 #1728]  INFO -- : 0:  tilt (1.4.1) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-05T23:28:17.597690 #1728]  INFO -- : 0:  haml (4.0.4) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.4.gemspec
+I, [2014-01-05T23:28:17.598539 #1728]  INFO -- : 0:  json (1.8.0) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/json-1.8.0.gemspec
+I, [2014-01-05T23:28:27.695612 #1728]  INFO -- : 0:  kgio (2.8.1) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/kgio-2.8.1.gemspec
+I, [2014-01-05T23:28:27.696533 #1728]  INFO -- : 0:  mysql (2.9.1) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/mysql-2.9.1.gemspec
+I, [2014-01-05T23:28:27.697284 #1728]  INFO -- : 0:  rack (1.5.2) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-05T23:28:27.697871 #1728]  INFO -- : 0:  rack-protection (1.5.1) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-05T23:28:31.829091 #1728]  INFO -- : 0:  raindrops (0.12.0) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/raindrops-0.12.0.gemspec
+I, [2014-01-05T23:28:31.829886 #1728]  INFO -- : 0:  sinatra (1.4.4) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-05T23:28:37.001902 #1728]  INFO -- : 0:  unicorn (4.7.0) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/unicorn-4.7.0.gemspec
+I, [2014-01-05T23:28:37.002701 #1728]  INFO -- : 0:  bundler (1.5.0) from /Users/alanmesquita/.rvm/gems/ruby-2.1.0/specifications/bundler-1.5.0.gemspec

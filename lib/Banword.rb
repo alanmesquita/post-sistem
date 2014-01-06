@@ -1,7 +1,7 @@
 class Banword
 
     def initialize ()
-        @@badWords = ["merda", "porra", "merd4", "caralho"]
+        @@badWords = ["merda", "porra", "merd4", "caralho", "g1", "globo"]
     end
 
     def clean (phrase)
@@ -20,7 +20,7 @@ class Banword
 
     def cleanWord (word)
         @@badWords.each do |bad_word|
-            if word == bad_word.to_s
+            if word.downcase == bad_word.to_s
                 word = bad_word.to_s[0]+'****'
             end
         end

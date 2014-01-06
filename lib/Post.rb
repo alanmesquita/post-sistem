@@ -4,7 +4,7 @@ require "mysql"
 class Post
 
     def initialize ()
-        @@db = Mysql.new('localhost', 'root', 'alan123', 'r7')
+        @@db = Mysql.new('localhost', 'root', '', 'r7')
     end
 
     def all(count='*', limit='')
